@@ -1,0 +1,68 @@
+{
+  "Q-learning agent": {
+    "return_mean": 61.29167650849979,
+    "return_std": 55.10976071493803,
+    "in_range_pct": 81.46,
+    "too_dry_pct": 12.844999999999999,
+    "too_wet_pct": 5.694999999999999,
+    "water_used": 168.46,
+    "lost_on_application": 25.2155,
+    "drained": 2.2460436503080308,
+    "budget_ran_out_pct": 63.800000000000004
+  },
+  "Threshold rule, dry < 40 (robot smart mode)": {
+    "return_mean": 33.13035528338431,
+    "return_std": 60.5665958130551,
+    "in_range_pct": 61.269999999999996,
+    "too_dry_pct": 36.54666666666667,
+    "too_wet_pct": 2.183333333333333,
+    "water_used": 160.74,
+    "lost_on_application": 25.3,
+    "drained": 0.7888840692928889,
+    "budget_ran_out_pct": 56.8
+  },
+  "Threshold rule, tuned (dry < 45)": {
+    "return_mean": 66.93225190225046,
+    "return_std": 56.2905765913504,
+    "in_range_pct": 85.56333333333333,
+    "too_dry_pct": 11.068333333333333,
+    "too_wet_pct": 3.368333333333333,
+    "water_used": 163.44,
+    "lost_on_application": 25.595,
+    "drained": 1.2067318476582636,
+    "budget_ran_out_pct": 60.4
+  },
+  "Fixed schedule (robot fixed mode)": {
+    "return_mean": -119.54806136732904,
+    "return_std": 140.1962947106899,
+    "in_range_pct": 35.06166666666666,
+    "too_dry_pct": 55.63,
+    "too_wet_pct": 9.308333333333334,
+    "water_used": 150.0,
+    "lost_on_application": 22.5,
+    "drained": 6.557179790310037,
+    "budget_ran_out_pct": 0.0
+  },
+  "Never water": {
+    "return_mean": -337.20555123193634,
+    "return_std": 81.3659328705498,
+    "in_range_pct": 9.568333333333332,
+    "too_dry_pct": 89.84333333333332,
+    "too_wet_pct": 0.5883333333333333,
+    "water_used": 0.0,
+    "lost_on_application": 0.0,
+    "drained": 0.19078462830127832,
+    "budget_ran_out_pct": 0.0
+  },
+  "Random": {
+    "return_mean": -161.31150958313032,
+    "return_std": 68.12137993347898,
+    "in_range_pct": 24.326666666666664,
+    "too_dry_pct": 42.73166666666667,
+    "too_wet_pct": 32.94166666666667,
+    "water_used": 180.0,
+    "lost_on_application": 31.0625,
+    "drained": 72.42872725361963,
+    "budget_ran_out_pct": 100.0
+  }
+}
